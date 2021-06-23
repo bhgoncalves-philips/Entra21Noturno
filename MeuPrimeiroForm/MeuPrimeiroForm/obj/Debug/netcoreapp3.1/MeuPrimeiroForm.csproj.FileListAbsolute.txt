@@ -1,0 +1,15 @@
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\bin\Debug\netcoreapp3.1\MeuPrimeiroForm.exe
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\bin\Debug\netcoreapp3.1\MeuPrimeiroForm.deps.json
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\bin\Debug\netcoreapp3.1\MeuPrimeiroForm.runtimeconfig.json
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\bin\Debug\netcoreapp3.1\MeuPrimeiroForm.runtimeconfig.dev.json
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\bin\Debug\netcoreapp3.1\MeuPrimeiroForm.dll
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\bin\Debug\netcoreapp3.1\MeuPrimeiroForm.pdb
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\obj\Debug\netcoreapp3.1\MeuPrimeiroForm.csprojAssemblyReference.cache
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\obj\Debug\netcoreapp3.1\MeuPrimeiroForm.Form1.resources
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\obj\Debug\netcoreapp3.1\MeuPrimeiroForm.csproj.GenerateResource.cache
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\obj\Debug\netcoreapp3.1\MeuPrimeiroForm.AssemblyInfoInputs.cache
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\obj\Debug\netcoreapp3.1\MeuPrimeiroForm.AssemblyInfo.cs
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\obj\Debug\netcoreapp3.1\MeuPrimeiroForm.csproj.CoreCompileInputs.cache
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\obj\Debug\netcoreapp3.1\MeuPrimeiroForm.dll
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\obj\Debug\netcoreapp3.1\MeuPrimeiroForm.pdb
+C:\Users\Entra21\source\repos\MeuPrimeiroForm\MeuPrimeiroForm\obj\Debug\netcoreapp3.1\MeuPrimeiroForm.genruntimeconfig.cache
