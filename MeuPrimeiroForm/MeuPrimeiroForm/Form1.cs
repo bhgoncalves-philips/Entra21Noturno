@@ -41,6 +41,10 @@ namespace MeuPrimeiroForm
 
         private void btnMultiplicacao_Click(object sender, EventArgs e)
         {
+            if ( numero1 == 1)
+            {
+                numero1++;
+            }
             MessageBox.Show($"{numero1 * numero2}");
         }
     }
