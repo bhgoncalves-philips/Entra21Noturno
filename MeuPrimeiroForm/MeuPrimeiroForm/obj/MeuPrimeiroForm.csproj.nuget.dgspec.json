@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Entra21\\Source\\Repos\\Entra21Noturno\\MeuPrimeiroForm\\MeuPrimeiroForm\\MeuPrimeiroForm.csproj": {}
+    "C:\\Users\\Entra21\\source\\repos\\Entra21Noturno\\MeuPrimeiroForm\\MeuPrimeiroForm\\MeuPrimeiroForm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Entra21\\Source\\Repos\\Entra21Noturno\\MeuPrimeiroForm\\MeuPrimeiroForm\\MeuPrimeiroForm.csproj": {
+    "C:\\Users\\Entra21\\source\\repos\\Entra21Noturno\\MeuPrimeiroForm\\MeuPrimeiroForm\\MeuPrimeiroForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Entra21\\Source\\Repos\\Entra21Noturno\\MeuPrimeiroForm\\MeuPrimeiroForm\\MeuPrimeiroForm.csproj",
+        "projectUniqueName": "C:\\Users\\Entra21\\source\\repos\\Entra21Noturno\\MeuPrimeiroForm\\MeuPrimeiroForm\\MeuPrimeiroForm.csproj",
         "projectName": "MeuPrimeiroForm",
-        "projectPath": "C:\\Users\\Entra21\\Source\\Repos\\Entra21Noturno\\MeuPrimeiroForm\\MeuPrimeiroForm\\MeuPrimeiroForm.csproj",
+        "projectPath": "C:\\Users\\Entra21\\source\\repos\\Entra21Noturno\\MeuPrimeiroForm\\MeuPrimeiroForm\\MeuPrimeiroForm.csproj",
         "packagesPath": "C:\\Users\\Entra21\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Entra21\\Source\\Repos\\Entra21Noturno\\MeuPrimeiroForm\\MeuPrimeiroForm\\obj\\",
+        "outputPath": "C:\\Users\\Entra21\\source\\repos\\Entra21Noturno\\MeuPrimeiroForm\\MeuPrimeiroForm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

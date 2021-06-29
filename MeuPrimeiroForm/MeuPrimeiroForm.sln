@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuPrimeiroForm", "MeuPrimeiroForm\MeuPrimeiroForm.csproj", "{23F25E8A-5C65-4F30-A9C0-3396DB7706FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuPrimeiroForm", "MeuPrimeiroForm\MeuPrimeiroForm.csproj", "{23F25E8A-5C65-4F30-A9C0-3396DB7706FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDI", "WindowsFormsApp1\MDI.csproj", "{B48D23D1-7FFA-40E1-80DC-9E8EA95A04ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{23F25E8A-5C65-4F30-A9C0-3396DB7706FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23F25E8A-5C65-4F30-A9C0-3396DB7706FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23F25E8A-5C65-4F30-A9C0-3396DB7706FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48D23D1-7FFA-40E1-80DC-9E8EA95A04ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48D23D1-7FFA-40E1-80DC-9E8EA95A04ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48D23D1-7FFA-40E1-80DC-9E8EA95A04ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48D23D1-7FFA-40E1-80DC-9E8EA95A04ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

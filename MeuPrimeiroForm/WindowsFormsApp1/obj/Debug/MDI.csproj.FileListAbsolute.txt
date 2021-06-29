@@ -1,0 +1,13 @@
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\obj\Debug\MDI.csprojAssemblyReference.cache
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MDIParent1.resources
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\obj\Debug\MDI.csproj.GenerateResource.cache
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\obj\Debug\MDI.csproj.CoreCompileInputs.cache
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AboutBox1.resources
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UserControl1.resources
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
