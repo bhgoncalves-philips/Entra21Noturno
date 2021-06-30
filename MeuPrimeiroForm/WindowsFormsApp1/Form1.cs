@@ -49,6 +49,9 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            nomes.RemoveAt(listBox1.SelectedIndex);
+            emails.RemoveAt(listBox1.SelectedIndex);
+            telefones.RemoveAt(listBox1.SelectedIndex);
             listBox1.Items.RemoveAt(listBox1.SelectedIndex);
         }
 
@@ -64,7 +67,6 @@ namespace WindowsFormsApp1
                 emails.Add(txtEmail.Text);
                 nomes.Add(txtNome.Text);
                 telefones.Add(maskedTextBox1.Text);
-                listBox1.Items.Clear();
             }
             else
             {
@@ -73,6 +75,7 @@ namespace WindowsFormsApp1
                 telefones[listBox1.SelectedIndex] = maskedTextBox1.Text;
             }
 
+            listBox1.Items.Clear();
             foreach (var nome in nomes)
             {
                 listBox1.Items.Add(nome);
