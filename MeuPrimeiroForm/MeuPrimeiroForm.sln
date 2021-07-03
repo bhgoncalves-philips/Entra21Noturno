@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuPrimeiroForm", "MeuPrime
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDI", "WindowsFormsApp1\MDI.csproj", "{B48D23D1-7FFA-40E1-80DC-9E8EA95A04ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaOO", "ContaOO\ContaOO.csproj", "{89A72041-BCCD-42E1-91CD-68D68DEA94D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B48D23D1-7FFA-40E1-80DC-9E8EA95A04ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B48D23D1-7FFA-40E1-80DC-9E8EA95A04ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B48D23D1-7FFA-40E1-80DC-9E8EA95A04ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A72041-BCCD-42E1-91CD-68D68DEA94D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A72041-BCCD-42E1-91CD-68D68DEA94D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A72041-BCCD-42E1-91CD-68D68DEA94D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A72041-BCCD-42E1-91CD-68D68DEA94D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

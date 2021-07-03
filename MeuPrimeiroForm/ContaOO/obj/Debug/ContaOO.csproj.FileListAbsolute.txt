@@ -1,0 +1,10 @@
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\ContaOO\bin\Debug\ContaOO.exe.config
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\ContaOO\bin\Debug\ContaOO.exe
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\ContaOO\bin\Debug\ContaOO.pdb
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\ContaOO\obj\Debug\ContaOO.csprojAssemblyReference.cache
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\ContaOO\obj\Debug\ContaOO.Form1.resources
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\ContaOO\obj\Debug\ContaOO.Properties.Resources.resources
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\ContaOO\obj\Debug\ContaOO.csproj.GenerateResource.cache
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\ContaOO\obj\Debug\ContaOO.csproj.CoreCompileInputs.cache
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\ContaOO\obj\Debug\ContaOO.exe
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\ContaOO\obj\Debug\ContaOO.pdb

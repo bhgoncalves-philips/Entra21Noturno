@@ -8,19 +8,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.Dominio;
 
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        List<string> nomes, telefones, emails;
+        List<Contato> contatos;
         bool novo;
         public Form1()
         {
             InitializeComponent();
-            nomes = new List<string>();
-            telefones = new List<string>();
-            emails = new List<string>();
+            contatos = new List<Contato>();
         }
 
         private void btnNovo_Click(object sender, EventArgs e)
@@ -37,9 +36,9 @@ namespace WindowsFormsApp1
         {
             if(listBox1.SelectedIndex >= 0)
             {
-                txtNome.Text = nomes[listBox1.SelectedIndex];
-                txtEmail.Text = emails[listBox1.SelectedIndex];
-                maskedTextBox1.Text = telefones[listBox1.SelectedIndex];
+                txtNome.Text = contatos[listBox1.SelectedIndex].Nome;
+                txtEmail.Text = contatos[listBox1.SelectedIndex].Email;
+                maskedTextBox1.Text = contatos[listBox1.SelectedIndex].Telefone;
                 novo = false;
                 btnGravar.Enabled = true;
                 button2.Enabled = true;
@@ -49,9 +48,7 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            nomes.RemoveAt(listBox1.SelectedIndex);
-            emails.RemoveAt(listBox1.SelectedIndex);
-            telefones.RemoveAt(listBox1.SelectedIndex);
+            contatos.RemoveAt(listBox1.SelectedIndex);
             listBox1.Items.RemoveAt(listBox1.SelectedIndex);
         }
 
@@ -62,23 +59,29 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             if (novo)
             {
-                emails.Add(txtEmail.Text);
-                nomes.Add(txtNome.Text);
-                telefones.Add(maskedTextBox1.Text);
+                Contato contato = new Contato
+                {
+                    Email = txtEmail.Text,
+                    Nome = txtNome.Text,
+                    Telefone = maskedTextBox1.Text
+                };
+                contatos.Add(contato);
+                listBox1.Items.Add(contato);
             }
             else
             {
-                nomes[listBox1.SelectedIndex] = txtNome.Text;
-                emails[listBox1.SelectedIndex] = txtEmail.Text;
-                telefones[listBox1.SelectedIndex] = maskedTextBox1.Text;
+                contatos[listBox1.SelectedIndex].Nome = txtNome.Text;
+                contatos[listBox1.SelectedIndex].Email = txtEmail.Text;
+                contatos[listBox1.SelectedIndex].Telefone = maskedTextBox1.Text;
             }
 
             listBox1.Items.Clear();
-            foreach (var nome in nomes)
+            foreach (var contato in contatos)
             {
-                listBox1.Items.Add(nome);
+                listBox1.Items.Add(contato);
             }
         }
     }
