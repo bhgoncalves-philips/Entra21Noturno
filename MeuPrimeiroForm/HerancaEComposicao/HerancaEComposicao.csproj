@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="Dominio\Compra.cs" />
     <Compile Include="Dominio\Item.cs" />
+    <Compile Include="Dominio\Paciente.cs" />
+    <Compile Include="Dominio\Pessoa.cs" />
     <Compile Include="FrmPessoas.cs">
       <SubType>Form</SubType>
     </Compile>
