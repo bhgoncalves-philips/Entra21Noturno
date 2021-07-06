@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDI", "WindowsFormsApp1\MDI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaOO", "ContaOO\ContaOO.csproj", "{89A72041-BCCD-42E1-91CD-68D68DEA94D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaEComposicao", "HerancaEComposicao\HerancaEComposicao.csproj", "{4470406E-0871-4B71-A24E-0C578CDB0C3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{89A72041-BCCD-42E1-91CD-68D68DEA94D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89A72041-BCCD-42E1-91CD-68D68DEA94D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89A72041-BCCD-42E1-91CD-68D68DEA94D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4470406E-0871-4B71-A24E-0C578CDB0C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4470406E-0871-4B71-A24E-0C578CDB0C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4470406E-0871-4B71-A24E-0C578CDB0C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4470406E-0871-4B71-A24E-0C578CDB0C3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

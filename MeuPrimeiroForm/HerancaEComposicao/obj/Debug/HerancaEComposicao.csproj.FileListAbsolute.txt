@@ -1,0 +1,10 @@
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\HerancaEComposicao\bin\Debug\HerancaEComposicao.exe.config
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\HerancaEComposicao\bin\Debug\HerancaEComposicao.exe
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\HerancaEComposicao\bin\Debug\HerancaEComposicao.pdb
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\HerancaEComposicao\obj\Debug\HerancaEComposicao.csprojAssemblyReference.cache
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\HerancaEComposicao\obj\Debug\HerancaEComposicao.FrmPessoas.resources
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\HerancaEComposicao\obj\Debug\HerancaEComposicao.Properties.Resources.resources
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\HerancaEComposicao\obj\Debug\HerancaEComposicao.csproj.GenerateResource.cache
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\HerancaEComposicao\obj\Debug\HerancaEComposicao.csproj.CoreCompileInputs.cache
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\HerancaEComposicao\obj\Debug\HerancaEComposicao.exe
+C:\Users\Entra21\source\repos\Entra21Noturno\MeuPrimeiroForm\HerancaEComposicao\obj\Debug\HerancaEComposicao.pdb
