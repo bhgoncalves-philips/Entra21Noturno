@@ -6,24 +6,12 @@ using System.Threading.Tasks;
 
 namespace ContaOO.Dominio
 {
-    public class Conta
+    public abstract class Conta
     {
         public int Numero { get; set; }
         public string Titular { get; set; }
-        public double Saldo { get; private set; }
-
-        public Conta(int numero, string titular)
-        {
-            Numero = numero;
-            Titular = titular;
-            Saldo = 100;
-        }
-
-        public Conta(int numero)
-        {
-            Numero = numero;
-            Saldo = 100;
-        }
+        public double Saldo { get; protected set; }
+        public double TaxaRendimento { get; protected set; }
 
         public bool Saca(double quantidade)
         {

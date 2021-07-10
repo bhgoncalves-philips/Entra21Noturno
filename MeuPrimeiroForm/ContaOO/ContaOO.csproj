@@ -47,6 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dominio\Conta.cs" />
+    <Compile Include="Dominio\ContaCorrente.cs" />
+    <Compile Include="Dominio\ContaInvestimento.cs" />
+    <Compile Include="Dominio\ContaPoupanca.cs" />
+    <Compile Include="Dominio\IRendimento.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

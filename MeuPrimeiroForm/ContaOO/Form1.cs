@@ -18,11 +18,6 @@ namespace ContaOO
         public Form1()
         {
             InitializeComponent();
-            conta = new Conta(1, "Bruno");
-            conta.Deposita(20);
-            contas.Add(conta);
-            contas.Remove(conta);
-            
         }
 
         private void btnNovaConta_Click(object sender, EventArgs e)
@@ -41,9 +36,46 @@ namespace ContaOO
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            switch (comboBox1.SelectedIndex)
+            {
+                case 0:
+                    conta = new ContaCorrente() 
+                    { Numero = 1, Titular = "Bruno" };
+                    break;
+                case 1:
+                    conta = new ContaPoupanca()
+                    { Numero = 1, Titular = "Bruno" };
+                    button1.Enabled = true;
+                    break;
+                case 2:
+                    conta = new ContaInvestimento()
+                    { Numero = 1, Titular = "Bruno" };
+                    dateTimePicker1.Enabled = true;
+                    button1.Enabled = true;
+                    break;
+                default:
+                    break;
+            }
+            conta.Deposita(20);
             txtNumeroConta.Text = conta.Numero.ToString();
             txtTitular.Text = conta.Titular;
             mskValor.Text = conta.Saldo.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(conta is IRendimento)
+            {
+                IRendimento rendimento =(IRendimento) conta;
+
+                MessageBox.Show(Convert.ToString(rendimento.renderMensalmente()));
+            }
         }
     }
 }
