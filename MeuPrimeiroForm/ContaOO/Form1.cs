@@ -13,11 +13,12 @@ namespace ContaOO
 {
     public partial class Form1 : Form
     {
-        Conta conta;
+        Conta conta = null;
         List<Conta> contas = new List<Conta>();
         public Form1()
         {
             InitializeComponent();
+            conta = new ContaCorrente();
         }
 
         private void btnNovaConta_Click(object sender, EventArgs e)
@@ -60,6 +61,7 @@ namespace ContaOO
                     button1.Enabled = true;
                     break;
                 default:
+                    conta = new ContaCorrente();
                     break;
             }
             conta.Deposita(20);
@@ -70,11 +72,15 @@ namespace ContaOO
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(conta is IRendimento)
+            if(conta is ContaInvestimento)
             {
-                IRendimento rendimento =(IRendimento) conta;
-
-                MessageBox.Show(Convert.ToString(rendimento.renderMensalmente()));
+                ContaInvestimento rendimento =(ContaInvestimento) conta;
+                MessageBox.Show(Convert.ToString(rendimento.RenderMensalmente()));
+            }
+            if(conta is ContaPoupanca)
+            {
+                ContaPoupanca rendimento = (ContaPoupanca)conta;
+                MessageBox.Show(Convert.ToString(rendimento.RenderMensalmente()));
             }
         }
     }

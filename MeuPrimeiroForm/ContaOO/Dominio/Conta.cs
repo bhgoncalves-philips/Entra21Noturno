@@ -27,5 +27,8 @@ namespace ContaOO.Dominio
         {
             Saldo += quantidade;
         }
+
+        public abstract bool Transferir(double quantidade, Conta contaDestino);
+       
     }
 }

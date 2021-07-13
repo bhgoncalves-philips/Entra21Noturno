@@ -13,10 +13,15 @@ namespace ContaOO.Dominio
             TaxaRendimento = 0.5;
         }
 
-        public double renderMensalmente()
+        public double RenderMensalmente()
         {
             Saldo += Saldo * TaxaRendimento / 100;
             return Saldo;
+        }
+
+        public override bool Transferir(double quantidade, Conta contaDestino)
+        {
+            throw new NotImplementedException();
         }
     }
 }

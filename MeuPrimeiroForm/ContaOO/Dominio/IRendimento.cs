@@ -8,6 +8,6 @@ namespace ContaOO.Dominio
 {
     interface IRendimento
     {
-       double renderMensalmente();
+       double RenderMensalmente();
     }
 }

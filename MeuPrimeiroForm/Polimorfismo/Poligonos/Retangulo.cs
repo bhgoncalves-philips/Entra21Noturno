@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Polimorfismo.Poligonos
 {
-    class Retangulo :Poligono, IPerimetro
+    class Retangulo :Poligono,IPerimetro
     {
         public int Base { get; set; }
         public int Altura { get; set; }
@@ -12,6 +12,7 @@ namespace Polimorfismo.Poligonos
         public Retangulo()
         {
             Arestas = 4;
+            IPerimetro perimetro = this;
         }
         public override int Area()
         {

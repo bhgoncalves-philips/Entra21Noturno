@@ -15,13 +15,18 @@ namespace ContaOO.Dominio
             TaxaRendimento = 1;
         }
 
-        public double renderMensalmente()
+        public double RenderMensalmente()
         {
             if (DateTime.Today.Month - DataInvestimento.Month > 0)
             {
                 Saldo += Saldo * TaxaRendimento / 100;
             }
             return Saldo;
+        }
+
+        public override bool Transferir(double quantidade, Conta contaDestino)
+        {
+            return false;
         }
     }
 }
